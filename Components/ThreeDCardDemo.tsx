@@ -17,7 +17,7 @@ export function ThreeDCardDemo({title, description ,image,category,id}) {
             src= {image}
             height="400"
             width="400"
-            className=" rounded-xl group-hover/card:shadow-xl"
+            className=" rounded-xl group-hover/card:shadow-xl max-h-[200px]"
             alt=" "
             priority ={true}
             loading='eager'
