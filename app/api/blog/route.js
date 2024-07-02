@@ -2,7 +2,7 @@ import { ConnectDb } from "../../../lib/config/db"
 import { NextResponse } from "next/server"
 import {writeFile} from 'fs/promises'
 import { title } from "process";
-  import BlogModel from '../../../lib/models/BlogModel'
+  import BlogModel from '../../../lib/models/BlogModel.js'
 
   const fs = require('fs');
 
