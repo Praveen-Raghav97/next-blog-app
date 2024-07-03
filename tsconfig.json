@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/admin/addProduct/page.jsx", "app/admin/blogList/page.jsx"  ],
+, "app/admin/addProduct/Page.jsx", "app/admin/blogList/Page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
