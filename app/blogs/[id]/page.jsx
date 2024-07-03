@@ -6,7 +6,8 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import axios from "axios"
-const page = ({params}) => {
+
+const Page = ({params}) => {
 
   const [data , setData] = useState(null)
 
@@ -72,4 +73,4 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default Page

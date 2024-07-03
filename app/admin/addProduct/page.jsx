@@ -6,7 +6,7 @@ import { title } from 'process'
 import axios from 'axios'
 import { toast, useToast } from 'react-toastify'
 
-const page = () => {
+const Page = () => {
 
     const [image, setImage] = useState(false);
 
@@ -85,4 +85,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
