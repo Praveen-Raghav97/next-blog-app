@@ -57,7 +57,7 @@ const Header = () => {
        </form>
        
       </motion.div>
-     
+     <BackgroundBeams/>
     </AuroraBackground>
     
   );
