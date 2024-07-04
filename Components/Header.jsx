@@ -29,7 +29,7 @@ const Header = () => {
  }
   return (
     <AuroraBackground>
-      <BackgroundBeams/>
+     
       <div
         
         className="relative flex flex-col gap-4 items-center justify-center px-4"
