@@ -29,7 +29,7 @@ const Header = () => {
  }
   return (
     <AuroraBackground>
-       <BackgroundBeams/>
+      
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -57,7 +57,7 @@ const Header = () => {
        </form>
        
       </motion.div>
-     <BackgroundBeams/>
+    
     </AuroraBackground>
     
   );
