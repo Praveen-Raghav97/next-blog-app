@@ -1,4 +1,4 @@
-"use client"
+
 
 import Image from 'next/image'
 import React, { useState } from 'react'
@@ -7,11 +7,9 @@ import Link from 'next/link'
 
 const Sidebar = () => {
 
-  const [mobileMenu,setMobileMenu] = useState(false);
-  const toggleMenu = ({}) =>{
-    mobileMenu ? setMobileMenu (false) : setMobileMenu(true);
+  
 
-  }
+  
   return (
     <div className='flex flex-col bg-slate-800 text-teal-50 max-md:hidden'>
       <Link href='/' className='px-2 sm:pl-14 py-3 border border-white '>

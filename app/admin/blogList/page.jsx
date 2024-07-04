@@ -5,7 +5,7 @@ import BlogTableItems from '../../../Components/AdminComponent/BlogTableItems'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const page = () => {
+const Page = () => {
   const[blogs , setBlogs] = useState([]);
 
   const fetchBlogData = async()  =>{
@@ -37,7 +37,7 @@ const page = () => {
   return (
     <div className='flex-1 pt-5  px-5 sm:pt-12 sm:pl-16'>
       <h1 className='text-xl font-bold mb-6'>All Blogs</h1>
-      <div className=' relative h-[80vh] max-w[850px] overflow-x-auto nt-4 border border-white scroll-hide'>
+      <div className=' relative h-[70vh] max-w[750px] overflow-x-auto mt-4 border border-white scroll-hide'>
       <table className='w-full text-sm text-white'>
         <thead className='text-xs  bg-slate-700 text-left uppercase text-white-500'>
        <tr>
@@ -60,4 +60,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

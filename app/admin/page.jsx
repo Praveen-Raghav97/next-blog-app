@@ -3,7 +3,7 @@ import React from 'react'
 import { BackgroundBeams } from '../../Components/ui/background-beams'
 
 
-const page = () => {
+const Page = () => {
   return (
     < div  className='flex items-center justify-between flex-col px-10 py-10'>
     <div className=" flex flex-col gap-6 items-center justify-center py-2 px-4 sm:py-[220px] max-md:hidden mt-10 text-center">
@@ -32,4 +32,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -26,7 +26,7 @@ import BlogModel from '../../../lib/models/BlogModel';
       //Showing All Blogs
     }else{
       return NextResponse.json({
-        blogs
+      blogs
      })
     }
    
