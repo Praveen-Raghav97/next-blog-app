@@ -46,7 +46,7 @@ const Header = () => {
        <form action={OnSubmitHandler} className="flex justify-center gap-1 sm:gap-1  max-w[500px] scale-75 sm:scale-100 mx-auto mt-10 ">
  <input 
           type="email"
-          className="pl-5   sm:w-auto  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 px-4 py-2"
+          className="pl-5   sm:w-auto   border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 px-4 py-2"
           placeholder="Enter Your Email @"
           required
           value={email} onChange={(e)=>setEmail(e.target.value)}
