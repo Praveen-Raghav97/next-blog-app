@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 import Navbar from "../Components/Navbar";
 import { ThreeDCardDemo } from "../Components/ThreeDCardDemo";
 
-import { WavyBackgroundDemo } from "../Components/WavyBackgroundDemo";
+
 import Footer from "../Components/Footer";
 import BlogList from "../Components/BlogList";
 import { ToastContainer } from "react-toastify";

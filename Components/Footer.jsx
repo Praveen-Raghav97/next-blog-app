@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
-import { WavyBackground } from './ui/wavy-background'
+
 import { assets } from '../Assets/assets'
 import Image from 'next/image'
-import { WavyBackgroundDemo } from './WavyBackgroundDemo'
+
 import Link from 'next/link'
 const Footer = () => {
   return (

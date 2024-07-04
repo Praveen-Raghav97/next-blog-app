@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/admin/addProduct/Page.jsx", "app/admin/blogList/Page.jsx"  ],
+, "app/admin/addProduct/page.jsx", "app/admin/blogList/page.jsx", "Components/ui/3d-card.tsx", "Components/ui/AuroraBackground.tsx", "Components/ui/background-beams.tsx"  ],
   "exclude": [
     "node_modules"
   ]

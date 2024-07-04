@@ -6,7 +6,7 @@ import { title } from 'process'
 import axios from 'axios'
 import { toast, useToast } from 'react-toastify'
 
-const Page = () => {
+const page = () => {
 
     const [image, setImage] = useState(false);
 
@@ -69,7 +69,7 @@ const Page = () => {
  <p className='mt-4 text-xl'> Blog Title</p>
  <input name='title' onChange={onChangeHandler} className=' bg-slate-700   w-full sm:w-[500px]  mt-4 px-5 py-3  border rounded-md md:w-[400px]' type="text" placeholder='Type Here' required />
  <p className='mt-4 text-xl'> Blog Description</p>
- <textarea name='description' onChange={onChangeHandler} className=' bg-slate-700   w-full sm:w-[500px] mt-4 px-5 py-3  border rounded-md md:w-[400px]'  placeholder='Write Your Content Here' rows={6} required />
+ <textarea name='description' onChange={onChangeHandler} className=' bg-slate-700   w-full sm:w-[500px] mt-4 px-5 py-3  border rounded-md md:w-[400px]'  placeholder='Write Your Content Here And Use Html. Tags For Better Expreiance.' rows={6} required />
  <p className='text-xl mt-4'>Category</p>
  <select onChange={onChangeHandler} value={data.category} className='bg-slate-700 px-4 py-3 mt-4 w-40 border rounded-md  ' name="category" id=""> 
   <option value="Startup">Startup</option>
@@ -85,4 +85,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default page
