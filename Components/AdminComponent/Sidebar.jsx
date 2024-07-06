@@ -21,7 +21,7 @@ const Sidebar = () => {
      
       <div className='w-28 sm:w-80  h-[100vh] relative py-12 border border-white max-md:hidden'>
 
-        <div className= "w-[50%] sm:w-[80%] absolute right-7 gap-4 max-md:hidden ">
+        <div className= "w-[50%] sm:w-[80%] absolute right-0 gap-4 max-md:hidden ">
         <Link href='/admin/addProduct' className='flex items-center border border-white gap-3 font-medium px-3 py-2  bg-slate-700  '>
           <Image src={assets.add_icon}  width={28} alt='' color='white'/> <p>Add Blog</p>
          </Link>
