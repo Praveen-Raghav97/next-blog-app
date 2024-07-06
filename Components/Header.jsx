@@ -35,7 +35,7 @@ const Header = () => {
         className=" flex flex-col gap-4 items-center justify-center px-4 my-20"
       >
         <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">Your words can change the world.</div>
-        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 text-center">One blog post at a time. Write with passion, share with purpose.</div>
+        <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">One blog post at a time. Write with passion, share with purpose.</div>
       
        <form action={OnSubmitHandler} className="flex justify-center gap-1 sm:gap-1  max-w[500px] scale-75 sm:scale-100 mx-auto mt-10 ">
  <input 
