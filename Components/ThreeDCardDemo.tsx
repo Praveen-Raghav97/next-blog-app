@@ -8,7 +8,7 @@ import Link from "next/link";
 export function ThreeDCardDemo({title, description ,image,category,id}) {
   return (
    
-<CardContainer className="">
+< CardContainer className="">
       <CardBody className=" min-h-[500px] max-w-[330px] bg-gray-50  group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
 
       <CardItem translateZ="100" className="w-full ">
@@ -54,7 +54,7 @@ export function ThreeDCardDemo({title, description ,image,category,id}) {
           
         </div>
       </CardBody>
-    </CardContainer>
+    </ CardContainer>
     
     
   );
