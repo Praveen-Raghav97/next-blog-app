@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 import { toast } from "react-toastify"
 
 
-const blogList = () => {
+const BlogList = () => {
     const [menu , setMenu] = useState('All');
     const [blogs ,setBlogs] = useState([])
    
@@ -63,4 +63,4 @@ const blogList = () => {
   )
 }
 
-export default blogList
+export default BlogList
