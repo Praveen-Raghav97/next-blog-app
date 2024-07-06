@@ -1,6 +1,6 @@
 "use client"
 /** @format */
-
+import '../globals.css'
 import Image from "next/image";
 import Sidebar from "../../Components/AdminComponent/Sidebar";
 
