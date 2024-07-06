@@ -67,7 +67,7 @@ const Page = ({params}) => {
             </div>
        </div>
        <Footer />
-       <BackgroundBeams/>
+       
     </>:<>
     </>
   )
